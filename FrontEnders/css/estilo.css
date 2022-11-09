@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Encode+Sans+Condensed&family=Josefin+Sans:wght@200;400&family=Source+Sans+3:wght@400;700;900&display=swap');
+
+/*font-family: 'DM Serif Display', serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: Source Sans 3 :wght@300;400;900
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------INICIO MENU---------------------*/
+
+.nav-link:hover{        
+    background-color: #8f8f8f;
+ }
+
+.navbar-brand{  /*Margem logo*/
+    padding-left: 25px;
+}
+
+
+/*--------------------------INICIO PRIMEIRO CONTEÚDO---------------------*/
+.meio{
+    height: 508px;
+    display: flex;
+}
+
+.meio-dois{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 100px;
+    align-items: center;   
+}
+
+.meio-conteudo-h1{
+    font-family:  DM Serif Display, serif;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 58px;
+}
+
+
+#text-dinamico{
+    font-family: DM Serif Display, serif;
+    font-weight: 400;
+    font-size: 70px;
+    height: 90px;
+    color: #008d38;
+}
+
+
+.meio-conteudo-p{
+    font-family: Encode Sans Condensed, sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding-top: 40px;
+    color:#ffffff
+}
+/*--------------------------FIM PRIMEIRO CONTEÚDO---------------------*/
+
+
+/*--------------------------INICIO SEGUNDO CONTEÚDO---------------------*/
+.conteudo-dois--{
+    height: auto;
+
+}
+
+.conteud-dois-h2{
+    font-family: Source Sans/3 , sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 35px;
+}
+
+.conteud-dois-img{
+    margin-bottom: 20px;
+}
+
+.conteudo-dois-dois{
+    padding: 40px;
+}
+
+.conteudo-dois-tres{
+    padding: 30px;
+}
+
+.fa-solid{
+    padding: 20px;
+}
+
+.conteudo-dois-titulo{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Source Sans/3 , sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.conteudo-dois-p{
+    font-family: Josefin Sans, sans-serif; 
+    font-size: 20px;
+    font-weight: normal;
+    color: #505050;
+
+}
+
+.conteudo-dois-a{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: Source Sans\ 3,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+/*--------------------------FIM SEGUNDO CONTEÚDO---------------------*/
+
+/*--------------------------INICIO FERRAMENTAS CONTEÚDO---------------------*/
+.ferramentas-para{
+    padding: 0 100px;
+   
+}
+
+.ferramenta-img{
+    padding-bottom: 20px;
+}
+
+.ferramentas-para-h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Source Sans/3 , sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.ferramentas-para-h{
+    text-align: center;
+    font-family: Source Sans/3 , sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.ferramentas-para-p{
+    font-family: Source Sans/3 , sans-serif;
+    text-align: center;
+    color:#5B5B58
+}
+
+.ferramenta{
+    padding: 20px;
+}
+
+.ferramenta:hover{
+    background-color:  #02cc5386;
+    border-radius: 5px;
+}
+
+.ferramenta-botao{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-left: 45px;
+}
+/*--------------------------FIM FERRAMENTAS CONTEÚDO---------------------*/
+
+
+/*----------------------------INICIO COLORFRONT-----------------------*/
+
+.psico{
+    padding: 30px;
+    padding-bottom: 50px;
+} 
+
+
+.color{
+    font-family: 'dm serif display', serif;
+    font-size: 50px;
+    background-image: linear-gradient(#ce3bbd, steelblue, rgb(122, 198, 122), rgb(237, 237, 144));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+    color: white;
+    border: #00000000 3px;
+    padding-bottom: 50px;
+}
+.conteudo-color-p{
+    font-family: 'Source Sans/3', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2b2b;
+}
+.img-color{
+    padding-top: 160px;
+}
+/*------------------------FIM COLORFRONT---------------------------*/
+
+
+
+
+
+/*---------------------------INICIO CHAMADA------------------------*/
+.conhecimento{
+    margin: auto;
+    background-color:  #008d38;   
+    box-shadow: #2b2b2b;
+  
+}
+
+.conteudo-tres{
+    height: auto;
+    padding: 30px;
+}
+
+.conteudo-tres-rodape{
+    color: white;
+    font-family:  DM Serif Display, serif;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.comeceagora{
+    padding: 40px;
+    margin: 40px;
+    border: 0.5px solid #505050;;
+    border-radius: 10px;
+    background-color: #000000b4;
+    box-shadow: #000000;
+}
+
+.comeceagora-h2{
+    text-align: center;
+    color: white;
+    font-family: Source Sans/3 , sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+
+.input{
+    margin-top: 15px;
+}
+
+.form-input{
+    background: #f8fafc;
+    width: 300px;
+    max-width: auto;
+    z-index: 0;
+    line-height: 1.4;
+    color: #202730;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comeceagora-botao{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.botao{
+    display: inline-block;
+    border-radius: 50px;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: #02cc53;
+    height: 50px;
+    min-width: 195px;
+    font-size: 16px;
+    font-family: sans-serif ;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: .1em;
+    text-align: center;
+    padding: 12px 30px 8px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+/*--------------------------FIM CHAMADA---------------------*/
+
+/*--------------------------INICIO COOKIE---------------------*/
+.alert {
+    background-color: black;
+    color: #ffff;
+   /* margin-top: 30px;*/
+
+
+}
+/*--------------------------INICIO RODAPE---------------------*/
+.rodape{
+   margin-top: auto;
+}

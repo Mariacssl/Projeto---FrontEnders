@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Encode+Sans+Condensed&family=Josefin+Sans:wght@200;400&display=swap');
+
+/*font-family: 'DM Serif Display', serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.nav-link:hover{        /*Mudança de cor botão cabeçalho*/
+    background-color: #8f8f8f;
+ }
+ 
+
+ .rodape{   /*Margem rodapé*/
+    margin-top: 30px;
+ }
+
+.navbar-brand{  /*Margem logo*/
+    padding-left: 25px;
+}
+
+
+#form{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Column{
+   width: 350px;
+   align-items: center;
+   margin: auto;
+    background-color: black;
+   opacity: 60%;
+   height: 390px;
+    width: 350px;
+   text-align: center;
+    border-radius: 10px 20px;
+   }
+
+   .card-content-area {
+    padding: 14px 0;
+   
+   }
+   
+   .card-content-area input {
+   margin-top: 10px;
+   padding:0 5px;
+   background-color: transparent;
+   border:none;
+   border-bottom: 1px solid #e1e1e1;
+   outline: none;
+   color: #00b849;
+   width: 100%;
+   }
+   
+   
+.card-footer .submit{
+     
+        border-radius: 50px;
+        border: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        background: #02cc53;
+        height: 50px;
+        min-width: 195px;
+        font-size: 16px;
+        font-family: sans-serif ;
+        color: black;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1.2;
+        letter-spacing: .1em;
+        text-align: center;
+        padding: 12px 30px 8px;
+        box-shadow: none;
+        cursor: pointer; 
+        transition: 1s;
+   }
+
+
+.card-footer .submit:hover{
+    background-color:  #44ee88;
+   
+}   
+
+.caard{
+    margin: 13px;
+}
+   
+   .card-content label {
+    color: #ffffffc5;
+   font-size: 16px;
+    
+   }
+  .card-content-area{
+   color:  #ffffffc5;
+   font-size: 16px;
+   
+    
+   }
+
+   h2{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color:#458f28;
+    font-size: 40px;
+  }
+.recuperar_senha{
+    text-decoration: none;
+
+}
+
+.fa-solid {
+    margin-left: 10px;
+}
+
+.span-required{
+    display: none;
+    font-size: 14px;
+    margin: 3px 0 0 1px;
+    color: red
+}
